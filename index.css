@@ -26,13 +26,18 @@ body {
 }
 
 h3 {
-    font-size: 40px;
+    background-color: #1B244A;
+    border: 3px solid #EEEEEE;
+    padding: 5px 5px 10px 5px;
+    font-size: 35px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     height: 35px;
-    width: 150px;
-    margin: -5px 0px 0px 0px;
-    text-shadow: 0px 0px 10px black
+    width: 145px;
+    margin: 0px 0px -5px 0px;
+    text-shadow: 0px 0px 10px black;
+    border-radius: 10px;
+    box-shadow: 3px 3px 0px black;
 }
 
 .score-display {
@@ -57,6 +62,7 @@ h3 {
 }
 
 .button {
+    text-shadow: 0px 0px 10px black;
     height: 40px;
     width: 45px;
     font-family: 'Cursed Timer ULiL', sans-serif;
@@ -73,6 +79,7 @@ h3 {
 }
 
 #new-game-btn {
+    text-shadow: 0px 0px 10px black;
     margin: 40px;
     height: 55px;
     width: 100px;
@@ -80,5 +87,5 @@ h3 {
     color: #EEEEEE;
     background-color: #1B244A;
     border: 3px solid #EEEEEE;
-    border-radius: 5px;
+    border-radius: 10px;
 }
