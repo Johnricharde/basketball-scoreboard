@@ -1,0 +1,82 @@
+body {
+    color: #EEEEEE;
+    background-color: #1B244A;
+    margin: 0;
+}
+
+.container {
+    max-width: 500px;
+    min-width: 350px;
+    margin: 50px auto 0px auto;
+    padding: 20px;
+    border: 6px solid #EEEEEE;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    background-size: 600px;
+    background-image: url("basketback.jpg");
+}
+
+#home-column {
+    margin: 0px 15px 0px auto;
+}
+
+#guest-column {
+    margin: 0px auto 0px 15px;
+}
+
+h3 {
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    height: 35px;
+    width: 150px;
+    margin: 0px;
+    text-shadow: 0px 0px 10px black
+}
+
+.score-display {
+    font-size: 90px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #F94F6D;
+    line-height: 130px;
+    text-align: center;
+    height: 120px;
+    width: 155px;
+    margin: 25px 0px;
+    background-color: black;
+    border: 3px solid #EEEEEE;
+    border-radius: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    height: 45px;
+    width: 45px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #EEEEEE;
+    background-color: #1B244A;
+    border: 3px solid #EEEEEE;
+    border-radius: 5px;
+}
+
+#new-game-btn-flexbox {
+    display: flex;
+    justify-content: center;
+}
+
+#new-game-btn {
+    padding: ;
+    margin: 40px;
+    height: 55px;
+    width: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #EEEEEE;
+    background-color: #1B244A;
+    border: 3px solid #EEEEEE;
+    border-radius: 5px;
+}
